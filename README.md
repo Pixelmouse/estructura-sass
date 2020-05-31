@@ -8,9 +8,22 @@ Plantilla universal para proyectos a medida, usando `Split media` como estrategi
 <link href="css/desktop.css" rel="stylesheet" media="all and (min-width: 600px)">
 ```
 
-## Cargar vendors
+## Instalar
+
+1. Clonar repositorio (No descargar).
+
+2. Entrar en el proyecto (estructura-sass).
+
+3. Descargar vendors.
 
 ``` shell
 git submodule update --init --recursive
 ```
 
+4. Comprobar que compila.
+
+``` shell
+sass mobile.sass
+```
+
+5. Disfrutar.
