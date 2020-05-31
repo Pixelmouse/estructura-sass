@@ -1,6 +1,6 @@
 [submodule "sass/main/vendors/normalize.css"]
-	path = sass/main/vendors/normalize.css
+	path = main/vendors/normalize.css
 	url = https://github.com/necolas/normalize.css
 [submodule "sass/main/vendors/symbiosis-css"]
-	path = sass/main/vendors/symbiosis-css
+	path = main/vendors/symbiosis-css
 	url = https://github.com/Pixelmouse/symbiosis-css
