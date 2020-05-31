@@ -1,4 +1,4 @@
-Plantilla universal para proyectos a medida, usando `Split media` como estrategia `Responsive Design`.
+Plantilla SASS para proyectos a medida, usando `Split media` como estrategia `Responsive Design`.
 
 ## HTML
 
