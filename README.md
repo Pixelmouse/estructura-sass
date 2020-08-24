@@ -12,7 +12,13 @@ Plantilla SASS para proyectos a medida, usando `Split media` como estrategia `Re
 
 1. Clonar repositorio (No descargar).
 
-2. Entrar en el proyecto (estructura-sass).
+1.1 Renombra a `SASS`.
+
+``` shell
+mv estructura-sass sass
+```
+
+2. Entrar en el proyecto (`estructura-sass` o `sass`).
 
 3. Descargar vendors.
 
@@ -26,4 +32,10 @@ git submodule update --init --recursive
 sass mobile.sass
 ```
 
-5. Disfrutar.
+5. Borra directorios de `Git`.
+
+``` shell
+rm -rf .git main/vendors/symbiosis-css/.git main/vendors/normalize.css/.git
+```
+
+6. Disfruta.
