@@ -10,9 +10,9 @@ Plantilla SASS para proyectos a medida, usando `Split media` como estrategia `Re
 
 ## Instalar
 
-1. Clonar repositorio (No descargar).
+1. Clonar repositorio (No descargar) dentro de tu proyecto.
 
-1.1 Renombra a `SASS`.
+Renombra a `SASS`.
 
 ``` shell
 mv estructura-sass sass
