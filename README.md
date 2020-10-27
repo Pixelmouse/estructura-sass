@@ -18,7 +18,11 @@ Renombra a `SASS`.
 mv estructura-sass sass
 ```
 
-2. Entrar en el proyecto (`estructura-sass` o `sass`).
+2. Entrar en el proyecto.
+
+``` shell
+cd sass
+```
 
 3. Descargar vendors.
 
@@ -27,6 +31,14 @@ git submodule update --init --recursive
 ```
 
 4. Comprobar que compila.
+
+Si tienes gulp.
+
+``` shell
+gulp
+```
+
+En caso contrario...
 
 ``` shell
 sass mobile.sass
@@ -38,4 +50,10 @@ sass mobile.sass
 rm -rf .git main/vendors/symbiosis-css/.git main/vendors/normalize.css/.git
 ```
 
-6. Disfruta.
+6. Vuelve al proyecto.
+
+``` shell
+cd ..
+```
+
+7. Disfruta.
